@@ -55,7 +55,3 @@ The website represents an education-focused platform that helps students and wor
 **Task 3: AI Website Generation**
 
 Create a complete website using AI tools for any domain such as business, NGO, portfolio, or education. The website should include multiple sections like homepage, about, and services. The focus is on structure and idea rather than perfection.
-
-## Submission Note
-
-This project was created as part of the InAmigos Foundation internship task. The LinkedIn/social media sharing step can be completed separately by posting the live website link or screenshot and tagging InAmigos Foundation.
