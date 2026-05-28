@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InAmigos Education | AI Generated Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="InAmigos Education home">
+      <span class="brand-mark">IE</span>
+      <span>InAmigos Education</span>
+    </a>
+
+    <button class="menu-button" id="menuButton" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">AI Generated Education Website</p>
+        <h1>Learn practical skills for a brighter future.</h1>
+        <p class="hero-text">
+          InAmigos Education helps students and working professionals build job-ready skills through guided online courses,
+          mentoring, and project-based learning.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#courses">Explore Courses</a>
+          <a class="button secondary" href="#about">Know More</a>
+        </div>
+      </div>
+      <div class="hero-image" aria-label="Students learning together in a modern education space">
+        <img src="assets/learning-hero.png" alt="Students collaborating in a modern learning studio">
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Education program highlights">
+      <div>
+        <strong>25+</strong>
+        <span>Skill modules</span>
+      </div>
+      <div>
+        <strong>1,200+</strong>
+        <span>Learners supported</span>
+      </div>
+      <div>
+        <strong>4.8/5</strong>
+        <span>Average rating</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Us</p>
+        <h2>Built for learners who want more than theory.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          InAmigos Education is a modern learning platform focused on practical education. The idea behind this website is
+          to show how AI can help create a professional website structure for an education brand with clear sections,
+          services, and calls to action.
+        </p>
+        <p>
+          Our learning model combines short lessons, live doubt-solving, career guidance, and portfolio projects so every
+          learner can confidently present their skills.
+        </p>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">Services</p>
+        <h2>What the program offers</h2>
+      </div>
+      <div class="card-grid">
+        <article class="service-card">
+          <span class="icon">01</span>
+          <h3>Online Courses</h3>
+          <p>Structured courses in web development, digital marketing, data basics, and communication skills.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">02</span>
+          <h3>Mentor Support</h3>
+          <p>Weekly mentor sessions help learners clear doubts, stay consistent, and improve their projects.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">03</span>
+          <h3>Project Practice</h3>
+          <p>Hands-on assignments and mini projects help students build confidence and a visible portfolio.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section courses" id="courses">
+      <div class="section-heading">
+        <p class="eyebrow">Popular Courses</p>
+        <h2>Choose a practical learning path</h2>
+      </div>
+      <div class="course-list">
+        <article>
+          <div>
+            <h3>Website Design Basics</h3>
+            <p>HTML, CSS, responsive layouts, and page structure for beginners.</p>
+          </div>
+          <span>6 weeks</span>
+        </article>
+        <article>
+          <div>
+            <h3>Digital Marketing Starter</h3>
+            <p>Branding, social media content, campaigns, and analytics basics.</p>
+          </div>
+          <span>4 weeks</span>
+        </article>
+        <article>
+          <div>
+            <h3>Career Communication</h3>
+            <p>Resume writing, interview practice, presentation skills, and workplace confidence.</p>
+          </div>
+          <span>3 weeks</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-heading">
+        <p class="eyebrow">Learner Feedback</p>
+        <h2>Simple, useful, and career focused.</h2>
+      </div>
+      <blockquote>
+        "The project-based approach made learning feel practical. I could create a portfolio website and explain it
+        confidently in my interview."
+        <cite>- An InAmigos Education learner</cite>
+      </blockquote>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Start your learning journey</h2>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Enter your name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="Enter your email" required>
+        </label>
+        <label>
+          Interest
+          <select name="interest" required>
+            <option value="">Select a course</option>
+            <option>Website Design Basics</option>
+            <option>Digital Marketing Starter</option>
+            <option>Career Communication</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Tell us what you want to learn"></textarea>
+        </label>
+        <button class="button primary" type="submit">Send Enquiry</button>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Created as an AI website generation internship task.</p>
+    <p>&copy; 2026 InAmigos Education</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
